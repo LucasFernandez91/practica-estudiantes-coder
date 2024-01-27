@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Change scroll bar color to red */
+::-webkit-scrollbar {
+  width: 30px;
+  display: none;
+  background-color: #f00;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f00;
+}
+
+/*# sourceMappingURL=style.css.map */
